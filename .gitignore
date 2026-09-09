@@ -1,0 +1,9 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+.claude/worktrees/
+.claude/settings.local.json
+load/results/raw/
