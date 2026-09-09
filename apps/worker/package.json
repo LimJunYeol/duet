@@ -1,0 +1,11 @@
+{
+  "name": "@duet/worker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@duet/contracts": "workspace:*"
+  }
+}

@@ -158,3 +158,4 @@ queued ─▶ failed                 (재시도·폴백 소진)
 | 0005 | 재시도는 첫 토큰 전에만 | 항상 재시도 | 중복 출력 방지. partial 저장이 더 정직한 실패 |
 | 0006 | 입력 fail-open / 출력 하드블록 fail-closed | 전부 fail-closed | 가용성과 안전의 비대칭 위험 |
 | 0007 | Redis Stream 버퍼 | 프로세스 메모리 버퍼 | 멀티 인스턴스 · 재접속 |
+| 0008 | contracts 를 tsup 빌드 산출물로 소비 | TS 소스 직접 소비 / tsc project references | dev·prod 실행 경로 통일. 소스 소비는 Node 타입 스트리핑에 의존 |

@@ -1,0 +1,7 @@
+dist/
+coverage/
+pnpm-lock.yaml
+
+# 사람이 손으로 관리하는 문서·설정. 표 정렬을 prettier 가 다시 짜면 디프만 커진다.
+**/*.md
+.claude/

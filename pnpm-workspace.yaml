@@ -1,0 +1,9 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+
+# 설치 시 빌드 스크립트 실행을 허용할 패키지. pnpm 은 기본으로 차단하므로
+# 네이티브 바이너리를 받아야 동작하는 것만 명시적으로 연다.
+allowBuilds:
+  '@swc/core': true
+  esbuild: true

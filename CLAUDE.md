@@ -52,6 +52,8 @@ pnpm -F @duet/api dev    # :3000
 pnpm -F @duet/worker dev
 pnpm -F @duet/web dev    # :5173
 pnpm test | pnpm test:e2e | pnpm lint | pnpm typecheck
+pnpm build                     # packages/contracts 산출물 (typecheck·test가 자동 선행)
+pnpm -F @duet/contracts dev    # 계약을 고치며 작업할 때 tsup --watch
 pnpm eval -- --character mina --versions 1,2
 pnpm load:smoke          # mock-llm 대상 소규모 부하
 ```
