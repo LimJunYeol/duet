@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    // NestJS DI 는 데코레이터 메타데이터에 의존한다. 베이스가 아니라 여기서만 켠다.
+    // verbatimModuleSyntax 는 타입 전용 import 를 지워 메타데이터를 잃게 하므로 켜지 않는다.
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts", "test/**/*.ts"]
+}
